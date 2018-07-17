@@ -5,6 +5,7 @@ const passport = require('passport');
 
 // Load Models
 require('./models/User');
+require('./models/Profile');
 
 // Load Routes
 const users = require('./routes/api/users.js');

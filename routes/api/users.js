@@ -14,13 +14,6 @@ const validateLoginInput = require('../../validation/login');
 // Load User Model
 const User = mongoose.model('users');
 
-// @route   GET api/users/test
-// @desc
-// @access  Public
-router.get('/test', (req, res) => {
-  res.json({ msg: 'User Works'});
-});
-
 // @route   GET api/users/register
 // @desc    Register user
 // @access  Public
